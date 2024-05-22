@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Board</title>
+    <link rel="icon" href="Chess_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        table {
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        td {
+            width: 60px;
+            height: 60px;
+            text-align: center;
+        }
+
+        .white {
+            background-color: #c7a26a;
+        }
+
+        .black {
+            background-color: #865c3a;
+            
+        }
+        i {
+            color: white;
+            font-size: 25px;
+        }
+        .y {
+            color: black;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tbody>
+            <tr>
+                <td></td>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+                <td>G</td>
+                <td>H</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td class="black"><i class="fa-solid fa-chess-rook"></i></td>
+                <td class="white"><i class="fa-solid fa-chess-knight"></i></td>
+                <td class="black"><i class="fa-solid fa-chess-bishop"></i></td>
+                <td class="white"><i class="fa-solid fa-chess-queen"></i></td>
+                <td class="black"><i class="fa-solid fa-chess-king"></i></td>
+                <td class="white"><i class="fa-solid fa-chess-bishop"></i></td>
+                <td class="black"><i class="fa-solid fa-chess-knight"></i></td>
+                <td class="white"><i class="fa-solid fa-chess-rook"></i></td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td class="white"><i class="fa-solid fa-chess-pawn"></i></td>
+                <td class="black"><i class="fa-solid fa-chess-pawn"></i></td>
+                <td class="white"><i class="fa-solid fa-chess-pawn"></i></td>
+                <td class="black"><i class="fa-solid fa-chess-pawn"></i></td>
+                <td class="white"><i class="fa-solid fa-chess-pawn"></i></td>
+                <td class="black"><i class="fa-solid fa-chess-pawn"></i></td>
+                <td class="white"><i class="fa-solid fa-chess-pawn"></i></td>
+                <td class="black"><i class="fa-solid fa-chess-pawn"></i></td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td class="black"></td>
+                <td class="white"></td>
+                <td class="black"></td>
+                <td class="white"></td>
+                <td class="black"></td>
+                <td class="white"></td>
+                <td class="black"></td>
+                <td class="white"></td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td class="white"></td>
+                <td class="black"></td>
+                <td class="white"></td>
+                <td class="black"></td>
+                <td class="white"></td>
+                <td class="black"></td>
+                <td class="white"></td>
+                <td class="black"></td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td class="black"></td>
+                <td class="white"></td>
+                <td class="black"></td>
+                <td class="white"></td>
+                <td class="black"></td>
+                <td class="white"></td>
+                <td class="black"></td>
+                <td class="white"></td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td class="white"></td>
+                <td class="black"></td>
+                <td class="white"></td>
+                <td class="black"></td>
+                <td class="white"></td>
+                <td class="black"></td>
+                <td class="white"></td>
+                <td class="black"></td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td class="black"><i class="fa-solid fa-chess-pawn y"></i></td>
+                <td class="white"><i class="fa-solid fa-chess-pawn y"></i></td>
+                <td class="black"><i class="fa-solid fa-chess-pawn y"></i></td>
+                <td class="white"><i class="fa-solid fa-chess-pawn y"></i></td>
+                <td class="black"><i class="fa-solid fa-chess-pawn y"></i></td>
+                <td class="white"><i class="fa-solid fa-chess-pawn y"></i></td>
+                <td class="black"><i class="fa-solid fa-chess-pawn y"></i></td>
+                <td class="white"><i class="fa-solid fa-chess-pawn y"></i></td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="white"><i class="fa-solid fa-chess-rook y"></i></td>
+                <td class="black"><i class="fa-solid fa-chess-knight y"></i></td>
+                <td class="white"><i class="fa-solid fa-chess-bishop y"></i></td>
+                <td class="black"><i class="fa-solid fa-chess-queen y"></i></td>
+                <td class="white"><i class="fa-solid fa-chess-king y"></i></td>
+                <td class="black"><i class="fa-solid fa-chess-bishop y"></i></td>
+                <td class="white"><i class="fa-solid fa-chess-knight y"></i></td>
+                <td class="black"><i class="fa-solid fa-chess-rook y"></i></td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+                <td>G</td>
+                <td>H</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
